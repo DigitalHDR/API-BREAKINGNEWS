@@ -24,3 +24,6 @@
 //   res.send({soma: soma})
 // })
 //! para enviar com send usa-se dentro de um objeto
+//todo =====================================================
+// MIDDLEWARES
+// são funções interceptadoras >>> prevenir algums erros
