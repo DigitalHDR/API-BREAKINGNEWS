@@ -1,6 +1,3 @@
-const express = require('express')
-const app = express()
-
 // ROTA
   // Method http - CRUD (create, read. update, delete)
     // GET - pega um informação
@@ -14,11 +11,16 @@ const app = express()
 
   // Function (Callback) - responsavel por executar algum comando
   //! callback >>> uma função que executa dentro de outra função
+//todo =====================================================
+// app.get('/soma', (req, res) => {
+//   const soma = 1 + 2
+//   res.json(soma)
+// })
+//! para enviar valores numericos usa-se json
+//todo =====================================================
+// app.get('/soma', (req, res) => {
+//   const soma = 1 + 2
 
-app.get('/soma', (req, res) => {
-  const soma = 1 + 2
-
-  res.send({soma: soma})
-})
-
-app.listen(3000)
+//   res.send({soma: soma})
+// })
+//! para enviar com send usa-se dentro de um objeto
