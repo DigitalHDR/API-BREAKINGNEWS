@@ -38,3 +38,11 @@
   // Redirecionamentos (300-399)
   // Erros do cliente (400-499)
   // Erros do servidor (500-599)
+  //todo =====================================================
+  // route.patch('/:id', userController.update)
+  //! patch >>> atualiza apenas um objeto
+  //todo =====================================================
+  // if (!mongoose.Types.ObjectId.isValid(id)) {
+  //   //! verifica se o objeto id é valido
+  //   return res.status(400).send({ message: 'Invalid ID' })
+  // }
